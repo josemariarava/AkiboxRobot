@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta nanme="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="robototros.ico" type="image/x-icon">
     <title>AKIBOX, la robot</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/styles/contacto.css">
@@ -18,21 +18,21 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="misiones.html">Misiones</a></li>
                 <li><a href="audiovisuales.html">Audiovisuales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
             </ul>                             
         </nav>
     </header>
 
-    <div>
+    <div class="container">
         <form>
             <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escribí aquó tu nombre" required minlength="3">
+            <input type="text" name="nombre" id="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
             <label for="mail">Email: </label>
             <input type="email" name="mail" id="mail" required placeholder="Escribí aquí tu mail">
             <label for="pais">País: </label>
             <select name="pais" id="pais">
-                <option value="Perú">Perú</option>
-                <option value="Argentina">Argentina</option>
+                <option class="focuspru" value="Perú">Perú</option>
+                <option class="focuspru value="Argentina">Argentina</option>
                 <option value="Colombia">Colombia</option>
                 <option value="Paraguay">Paraguay</option>
                 <option value="Chile">Chile</option>               
